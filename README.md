@@ -16,4 +16,4 @@ https://www.geeksforgeeks.org/quick-sort/
   -QuickSort
 
 https://chat.openai.com
-  -My own sort
+  -Helped edit and finalize changes of my own sort
