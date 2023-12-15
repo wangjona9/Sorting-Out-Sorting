@@ -5,10 +5,10 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Something that fails to sort. Intended primarily to allow us to watch
- * tests fail.
+ * An implementation of the Bucket Sort 
+ * algorithm using generics and comparators
  *
- * @author Samuel A. Rebelsky
+ * @author Jonathan Wang
  */
 
 public class WangJonathanSort implements Sorter {
@@ -57,10 +57,10 @@ public class WangJonathanSort implements Sorter {
         vals[index++] = val;
       }
     }
-  }
+  } // WangJonathanSort(
 
   @Override
   public <T> void sort(T[] values, Comparator<? super T> order) {
     wangJonathanSort(values, order);
   }
-}
+} // sort()
