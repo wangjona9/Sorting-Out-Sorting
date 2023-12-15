@@ -1,5 +1,7 @@
 # Sorting-Out-Sorting
 
+Jonathan Wang
+
 This repository contains the implementations of InsertionSort, MergeSort, QuickSort, and my own sort. 
 
 Sources:
